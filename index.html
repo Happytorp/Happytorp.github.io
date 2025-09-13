@@ -1,69 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Akshay Chalvetkar — Python Backend Developer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akshay Chalvetkar | Backend Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-  body{font-family:Arial,sans-serif;background:#f7f8fb;color:#111;margin:0;padding:20px}
-  .container{max-width:900px;margin:0 auto}
-  .card{background:#fff;border-radius:12px;padding:20px;margin-bottom:18px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
-  h1,h2,h3{margin:0 0 10px 0}
-  p{margin:4px 0}
-  ul{margin:4px 0 10px 20px}
-  a{color:#0b63ff;text-decoration:none;margin-right:10px}
+body { font-family: 'Inter', sans-serif; margin:0; background:#f5f6fa; color:#333;}
+.container { max-width: 900px; margin: auto; padding: 20px; }
+.header { text-align:center; padding: 20px; background: #fff; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);}
+.header h1 { margin:0; font-size:28px; }
+.header p { color:#666; margin:4px 0 12px;}
+.header a { text-decoration:none; margin:0 8px; color:#0b63ff; font-weight:500;}
+.card { background:#fff; border-radius:12px; padding:20px; margin:20px 0; box-shadow:0 4px 10px rgba(0,0,0,0.05);}
+.card h2 { margin-top:0; color:#0b63ff; }
+.card ul { margin:0; padding-left:20px; }
+.skills { display:flex; flex-wrap:wrap; gap:10px; }
+.skill { background:#e6f0ff; color:#0b63ff; padding:6px 12px; border-radius:20px; font-size:14px; }
+@media(max-width:600px){.skills{flex-direction:column;}}
 </style>
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <h1>Akshay Chalvetkar</h1>
-      <p><strong>Python Backend Developer</strong> — building scalable APIs, real-time systems, and AI integrations</p>
-      <a href="resume.pdf" target="_blank">Download Resume</a>
-      <a href="mailto:your-email@example.com">Email</a>
-      <a href="https://github.com/your-username" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
-    </div>
+<div class="container">
 
-    <div class="card">
-      <h2>Experience</h2>
-      <h3>RUBI / Partner / CRM Applications</h3>
-      <p>Backend Developer | Sep 2022 – Mar 2024</p>
-      <ul>
-        <li>Developed REST APIs using Python & Django REST Framework for 3 enterprise applications.</li>
-        <li>Managed database connections, ORM models, MongoDB schemas, and AWS deployments.</li>
-        <li>Dockerized apps, automated deployments, optimized server load by 20%.</li>
-      </ul>
-      <h3>AI & NLP Projects</h3>
-      <ul>
-        <li>Project Performance Analyzer: NLP + multi-agent + Socket.IO for interactive data visualization.</li>
-        <li>RAG system for unstructured documents → context-aware AI Q&A.</li>
-        <li>Business Insights App: automated insights without relying on data experts.</li>
-      </ul>
-      <h3>Airbus SE</h3>
-      <ul>
-        <li>Optimized database queries, reducing query time by 80%.</li>
-        <li>Automated scripts, reduced manual effort by 50%.</li>
-      </ul>
-    </div>
+<div class="header">
+<h1>Akshay Chalvetkar</h1>
+<p>Python Backend Developer — building scalable APIs, real-time systems, and AI integrations</p>
+<a href="resume.pdf" target="_blank">Download Resume</a>
+<a href="mailto:your-email@example.com">Email</a>
+<a href="https://github.com/your-username" target="_blank">GitHub</a>
+<a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+</div>
 
-    <div class="card">
-      <h2>Projects</h2>
-      <ul>
-        <li>Customer Application (RUBI) — Python, Django REST, AWS — UI/UX improvements, orders, dashboard, payments.</li>
-        <li>Partner Application — Python, Django REST, AWS — partner dashboards, orders, payments.</li>
-        <li>CRM Application — Python, Django REST, Docker — lead management, advanced authorization, emails.</li>
-        <li>Project Performance Analyzer — Snowflake, NLP, Socket.IO — real-time dynamic SQL & visualizations.</li>
-        <li>RAG System — document parsing, embeddings, semantic search → AI Q&A.</li>
-        <li>Business Insights App — AI analytics to explain market trends automatically.</li>
-      </ul>
-    </div>
+<div class="card">
+<h2>Experience</h2>
+<h3>RUBI / Partner / CRM Applications</h3>
+<p>Backend Developer | Sep 2022 – Mar 2024</p>
+<ul>
+<li>Developed REST APIs using Python & Django REST Framework for 3 enterprise applications.</li>
+<li>Managed database connections, ORM models, MongoDB schemas, and AWS deployments.</li>
+<li>Dockerized apps, automated deployments, optimized server load by 20%.</li>
+</ul>
 
-    <div class="card">
-      <h2>Skills</h2>
-      <p>Python, FastAPI, Django REST, Flask, Socket.IO, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, LangGraph, AI/NLP, Pytest</p>
-    </div>
-  </div>
+<h3>AI & NLP Projects</h3>
+<ul>
+<li>Project Performance Analyzer: NLP + multi-agent + Socket.IO for interactive data visualization.</li>
+<li>RAG system for unstructured documents → context-aware AI Q&A.</li>
+<li>Business Insights App: automated insights without relying on data experts.</li>
+</ul>
+
+<h3>Airbus SE</h3>
+<ul>
+<li>Optimized database queries, reducing query time by 80%.</li>
+<li>Automated scripts, reduced manual effort by 50%.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Projects</h2>
+<ul>
+<li>Customer Application (RUBI) — Python, Django REST, AWS — UI/UX improvements, orders, dashboard, payments.</li>
+<li>Partner Application — Python, Django REST, AWS — partner dashboards, orders, payments.</li>
+<li>CRM Application — Python, Django REST, Docker — lead management, advanced authorization, emails.</li>
+<li>Project Performance Analyzer — Snowflake, NLP, Socket.IO — real-time dynamic SQL & visualizations.</li>
+<li>RAG System — document parsing, embeddings, semantic search → AI Q&A.</li>
+<li>Business Insights App — AI analytics to explain market trends automatically.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Skills</h2>
+<div class="skills">
+<span class="skill">Python</span>
+<span class="skill">FastAPI</span>
+<span class="skill">Django REST</span>
+<span class="skill">Flask</span>
+<span class="skill">Socket.IO</span>
+<span class="skill">PostgreSQL</span>
+<span class="skill">MongoDB</span>
+<span class="skill">Redis</span>
+<span class="skill">Docker</span>
+<span class="skill">Kubernetes</span>
+<span class="skill">LangGraph</span>
+<span class="skill">AI/NLP</span>
+<span class="skill">Pytest</span>
+</div>
+</div>
+
+</div>
 </body>
 </html>
-
